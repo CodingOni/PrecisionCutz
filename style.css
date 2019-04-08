@@ -1,0 +1,51 @@
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body > nav > div > a{
+  font-family: arial;
+      font-style: italic;
+      font-size: 32px;
+margin-left: 500px;
+}
+
+.bg-dark {
+    background-color: #a33327f0!important;
+}
+
+.nav-link:focus {
+    color: #2fe4b2;
+}
+
+.navbar-brand:focus,  .navbar-brand:hover {
+      color: #2fe4b2;
+}
+
+.card-footer:hover{
+  background-color:#a33327;
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #956854;
+  background: linear-gradient(to right, #956854, black);
+}
