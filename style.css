@@ -48,7 +48,7 @@ body {
 
 body {
   background: #956854;
-  background: linear-gradient(to right, #956854, black);
+  background: linear-gradient(to right, #956854, white);
 }
 =======
 .carousel-item {
@@ -83,4 +83,8 @@ margin-left: 500px;
 .card-footer:hover{
   background-color:#a33327;
 }
->>>>>>> 2341adeebfdb56d4b93836a1d1fb836fb8ef770d
+
+@media only screen and (max-width: 600px) {
+   i {
+  }
+}
