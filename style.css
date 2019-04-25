@@ -84,10 +84,7 @@ margin-left: 500px;
   background-color:#a33327;
 }
 
-@media only screen and (max-width: 600px) {
-   i {
-  }
-}
+
 
 
 
@@ -116,6 +113,7 @@ margin-left: 500px;
 	top:1px;
 }
 
-body > h4{
-  margin: 20px;
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem!important;
+  margin-top: 35px;
 }
