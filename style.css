@@ -105,8 +105,9 @@ margin-left: 500px;
 	text-shadow:0px 1px 0px #151714;
 }
 .myButton:hover {
-  background-color:#00ec00;
+  background-color: aliceblue;
   color: black;
+  text-decoration: none;
 }
 .myButton:active {
 	position:relative;
@@ -116,4 +117,17 @@ margin-left: 500px;
 .mb-4, .my-4 {
   margin-bottom: 1.5rem!important;
   margin-top: 35px;
+}
+
+.poweredby {
+  font-size: 80%;
+  font-weight: 400;
+  color: aqua;
+}
+
+.poweredby:hover {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: none;
+  color: aqua;
 }
